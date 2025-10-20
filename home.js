@@ -1,5 +1,6 @@
 // API Configuration
-const API_BASE_URL = 'http://localhost:5000';
+// API Configuration - Use config from config.js
+const API_BASE_URL = API_CONFIG.BACKEND_URL;
 
 // Global variables
 let allPatientsData = [];
@@ -577,3 +578,4 @@ window.addEventListener('resize', function() {
 console.log('%c🔬 ClusterMed - Home Dashboard', 'color: #4F46E5; font-size: 20px; font-weight: bold;');
 console.log('%cAPI Endpoint: ' + API_BASE_URL, 'color: #10B981;');
 console.log('%cFeatures: Patient Search, Cluster Visualization & AI Chat', 'color: #F59E0B;');
+

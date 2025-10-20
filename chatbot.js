@@ -177,7 +177,7 @@ async function sendMessage() {
 
     try {
         // Send to API
-        const response = await fetch('http://localhost:5000/api/chat', {
+        const response = await fetch(`${API_BASE_URL}/api/chat`,, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -376,3 +376,4 @@ function setupChatEventListeners() {
     
     console.log('✅ Event listeners attached');
 }
+

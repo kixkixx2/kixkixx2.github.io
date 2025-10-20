@@ -1001,12 +1001,13 @@ NOTE: All statistics above are REAL data from the actual analysis. Use these exa
     return full_prompt
 
 if __name__ == '__main__':
+    port = int(os.environ.get('PORT', 5000))
     print("Starting Flask API server...")
-    print("API will be available at: http://localhost:5000")
+    print(f"API will be available at: http://0.0.0.0:{port}")
     print("Endpoints:")
     print("  - POST /predict - Predict cluster for new patient")
     print("  - GET  /api/get_all_patients - Get visualization data")
     print("  - GET  /api/get_patient/<id> - Get full patient details")
     print("  - POST /api/chat - AI chatbot for cluster insights")
     print("  - GET  /health - Health check")
-    app.run(debug=False, host='0.0.0.0', port=5000)
+    app.run(debug=False, host='0.0.0.0', port=port)

@@ -17,7 +17,7 @@ load_dotenv()
 
 # Configure Gemini AI
 GEMINI_API_KEY = os.getenv('GEMINI_API_KEY')
-if GEMINI_API_KEY and GEMINI_API_KEY != 'AIzaSyDummyKeyReplaceMeWithRealKey123456789':
+if GEMINI_API_KEY and GEMINI_API_KEY != 'AIzaSyCp-BX-4LwNH44x94SpOmJgRky5f_SUsmU':
     try:
         genai.configure(api_key=GEMINI_API_KEY)  # type: ignore
         # Use the correct model name from available models (as of Oct 2025)
@@ -1011,3 +1011,4 @@ if __name__ == '__main__':
     print("  - POST /api/chat - AI chatbot for cluster insights")
     print("  - GET  /health - Health check")
     app.run(debug=False, host='0.0.0.0', port=port)
+

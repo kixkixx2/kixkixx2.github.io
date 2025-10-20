@@ -5,7 +5,7 @@ const API_CONFIG = {
     // Production: Use your Render URL (e.g., https://patient-clustering.onrender.com)
     BACKEND_URL: window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
         ? 'http://localhost:5000'
-        : 'https://your-render-app-name.onrender.com', // REPLACE THIS after deploying to Render
+        : 'https://jstin.onrender.com', // REPLACE THIS after deploying to Render
     
     // API Endpoints
     ENDPOINTS: {
@@ -26,3 +26,4 @@ function getApiUrl(endpoint) {
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = { API_CONFIG, getApiUrl };
 }
+

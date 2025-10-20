@@ -10,5 +10,7 @@ services:
       - key: PYTHON_VERSION
         value: "3.11"
       - key: GEMINI_API_KEY
+        value: "AIzaSyCp-BX-4LwNH44x94SpOmJgRky5f_SUsmU" 
         sync: false
     healthCheckPath: /health
+

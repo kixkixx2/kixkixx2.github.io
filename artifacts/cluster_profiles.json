@@ -1,0 +1,124 @@
+{
+  "cluster_0": {
+    "cluster_id": 0,
+    "name": "Cluster 0",
+    "total_patients": 1893,
+    "percentage": 63.1,
+    "demographics": {
+      "avg_age": 45.9,
+      "age_range": "18-80",
+      "gender_distribution": {
+        "Female": 993,
+        "Male": 698
+      },
+      "most_common_ethnicity": "Caucasian",
+      "most_common_insurance": "Private"
+    },
+    "vital_signs": {
+      "avg_bmi": 27.0,
+      "bmi_category": "Overweight",
+      "avg_systolic_bp": 129.9,
+      "avg_diastolic_bp": 79.9,
+      "bp_status": "Elevated",
+      "avg_heart_rate": 76.6,
+      "avg_cholesterol": 182.0,
+      "cholesterol_status": "Desirable",
+      "avg_glucose": 113.8,
+      "glucose_status": "Prediabetes"
+    },
+    "health_conditions": {
+      "diabetes_rate": 24.8,
+      "hypertension_rate": 30.9,
+      "heart_disease_rate": 19.1,
+      "smoking_distribution": {
+        "Never": 1044,
+        "Former": 356,
+        "Current": 299
+      },
+      "alcohol_distribution": {
+        "Moderate": 997,
+        "Heavy": 393
+      }
+    },
+    "treatment": {
+      "avg_doctor_visits": 5.0,
+      "avg_medications": 3.1,
+      "avg_adherence_rate": 83.9,
+      "avg_treatment_success": 74.5
+    },
+    "risk_assessment": {
+      "risk_level": "Low",
+      "risk_score": 21.2,
+      "description": "Generally healthy with minimal chronic conditions",
+      "high_bp_percentage": 20.4,
+      "high_bmi_percentage": 20.5
+    },
+    "key_characteristics": [
+      "Middle-aged population (avg age: 45)",
+      "Overweight tendency (avg BMI: 27.0)",
+      "Good medication adherence (84%)"
+    ]
+  },
+  "cluster_1": {
+    "cluster_id": 1,
+    "name": "Cluster 1",
+    "total_patients": 1107,
+    "percentage": 36.9,
+    "demographics": {
+      "avg_age": 67.8,
+      "age_range": "40-90",
+      "gender_distribution": {
+        "Female": 540,
+        "Male": 468
+      },
+      "most_common_ethnicity": "African American",
+      "most_common_insurance": "Medicare"
+    },
+    "vital_signs": {
+      "avg_bmi": 32.9,
+      "bmi_category": "Obese",
+      "avg_systolic_bp": 151.9,
+      "avg_diastolic_bp": 92.1,
+      "bp_status": "Stage 2 Hypertension",
+      "avg_heart_rate": 77.6,
+      "avg_cholesterol": 215.3,
+      "cholesterol_status": "Borderline High",
+      "avg_glucose": 166.8,
+      "glucose_status": "Diabetes"
+    },
+    "health_conditions": {
+      "diabetes_rate": 81.8,
+      "hypertension_rate": 87.2,
+      "heart_disease_rate": 50.0,
+      "smoking_distribution": {
+        "Former": 445,
+        "Current": 361,
+        "Never": 187
+      },
+      "alcohol_distribution": {
+        "Moderate": 448,
+        "Heavy": 248
+      }
+    },
+    "treatment": {
+      "avg_doctor_visits": 9.0,
+      "avg_medications": 6.9,
+      "avg_adherence_rate": 62.4,
+      "avg_treatment_success": 47.0
+    },
+    "risk_assessment": {
+      "risk_level": "High",
+      "risk_score": 69.6,
+      "description": "Multiple chronic conditions requiring active management",
+      "high_bp_percentage": 78.2,
+      "high_bmi_percentage": 68.1
+    },
+    "key_characteristics": [
+      "Older population (avg age: 67)",
+      "High obesity rate (avg BMI: 32.9)",
+      "High diabetes prevalence (82%)",
+      "High hypertension prevalence (87%)",
+      "Significant heart disease (50%)"
+    ]
+  }
+}

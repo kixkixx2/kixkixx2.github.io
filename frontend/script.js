@@ -1,5 +1,5 @@
 // API Configuration
-const API_BASE_URL = 'http://localhost:5000';
+const API_BASE_URL = 'API_CONFIG.BACKEND_URL';
 
 // Global variables
 let allPatientsData = [];
